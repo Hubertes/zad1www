@@ -39,7 +39,7 @@ for row in rows:
     icon = cells[3].find("img")
     filename = cells[4].text.replace("/", "").replace(" ", "-") + ".md"
 
-    f.write("## " + "![](" + "https://www.tiobe.com/" + icon["src"] + ") " + "[" + cells[4].text + "](" + filename + ")\n")
+    f.write("## " + "![](" + "https://www.tiobe.com/" + icon["src"] + ") " + "[" + cells[4].text.replace(".md", "") + "](" + filename + ")\n")
     f.write("- Position last year: " + cells[0].text + "\n")
     f.write("- Position this year: " + cells[1].text + "\n")
     f.write("- Ratings: " + cells[5].text + "\n")

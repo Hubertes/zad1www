@@ -7,5 +7,5 @@ COBOL is a language for business data processing needs, developed by CODASYL. Th
 Learn why COBOL, a business-oriented language, is still used by governments and banks, and how to get started with it. Find out the advantages and limitations of COBOL, and the tools and resources for beginners.
 ## What is COBOL? - IBM from https://www.ibm.com/think/topics/cobol
 COBOL was designed with optimal versatility in mind; its verbosity enables programmers to use a readable, easily maintainable programming language that can function across mainframe computers and operating systems. In fact, it was one of the first programming languages that the American National Standards Institute (ANSI) and International Organization for Standardization (ISO) standardized.
-## Social Security's COBOL Software Comes Under Scrutiny from https://www.newsweek.com/social-security-cobol-software-doge-elon-musk-2032680
-Technology writer Michael Hiles on X, formerly Twitter: "Dear lord, now everyone is a COBOL programming expert on social media. I am actually a COBOL programmer (DiBOL was my first language on a ...
+## If COBOL is so problematic, why does the US government still ... - ZDNET from https://www.zdnet.com/article/if-cobol-is-so-problematic-why-does-the-us-government-still-use-it/
+At the heart of this story lies COBOL, a programming language that has been Social Security's backbone for decades. COBOL code and arcane standards. COBOL, or Common Business Oriented Language ...
