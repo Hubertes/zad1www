@@ -7,5 +7,5 @@ C is a general-purpose programming language referred as the "mother of all progr
 Learn C. C is a general-purpose programming language that has been widely used for over 50 years. C is very powerful; it has been used to develop operating systems, databases, applications, etc. Start learning C now »
 ## Learn C Programming from https://www.programiz.com/c-programming
 Programiz offers free and premium resources to learn C programming, a foundational language for high-performance systems. Find out if C is for you, how to run C, and the best way to learn C with text, video, or interactive courses.
-## C Tutorial: Learn C Programming for Free - Online Tutorials Library from https://www.tutorialspoint.com/cprogramming/index.htm
-C Tutorial. C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely ...
+## Free C Programming Online Course for Beginners - GeeksforGeeks from https://www.geeksforgeeks.org/free-c-programming-course-online/
+Learn C language from scratch with this comprehensive and interactive course. Cover topics from basic syntax to advanced concepts, with real-world examples, quizzes, projects and interview questions.

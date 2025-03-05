@@ -39,12 +39,12 @@
 - Position this year: 8
 - Ratings: 2.26%
 - Change in ratings: +0.53%
-## ![](https://www.tiobe.com//wp-content/themes/tiobe/tiobe-index/images/Delphi_Object_Pascal.png) [DelphiObject Pascal.md](Delphi/Object Pascal)
+## ![](https://www.tiobe.com//wp-content/themes/tiobe/tiobe-index/images/Delphi_Object_Pascal.png) [DelphiObject-Pascal.md](Delphi/Object Pascal)
 - Position last year: 9
 - Position this year: 12
 - Ratings: 2.18%
 - Change in ratings: +0.78%
-## ![](https://www.tiobe.com//wp-content/themes/tiobe/tiobe-index/images/Visual_Basic.png) [Visual Basic.md](Visual Basic)
+## ![](https://www.tiobe.com//wp-content/themes/tiobe/tiobe-index/images/Visual_Basic.png) [Visual-Basic.md](Visual Basic)
 - Position last year: 10
 - Position this year: 9
 - Ratings: 2.04%
@@ -79,7 +79,7 @@
 - Position this year: 13
 - Ratings: 0.98%
 - Change in ratings: -0.28%
-## ![](https://www.tiobe.com//wp-content/themes/tiobe/tiobe-index/images/Assembly_language.png) [Assembly language.md](Assembly language)
+## ![](https://www.tiobe.com//wp-content/themes/tiobe/tiobe-index/images/Assembly_language.png) [Assembly-language.md](Assembly language)
 - Position last year: 17
 - Position this year: 14
 - Ratings: 0.95%

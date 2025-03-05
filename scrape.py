@@ -1,7 +1,22 @@
 import requests
 from bs4 import BeautifulSoup
+import time
 
 from duckduckgo_search import DDGS
+
+def search_with_retry(query, max_retries=12, retry_delay=5):
+    print(f"Searching for {query})
+    for attempt in range(max_retries):
+        try:
+            results = DDGS().text(query, max_results=5)
+            return results
+        except Exception as e:
+            print(f"Attempt {attempt + 1} failed: {e}")
+            if attempt < max_retries - 1:
+                print(f"Retrying in {retry_delay} seconds...")
+                time.sleep(retry_delay)
+    print("All attempts failed. Giving up.")
+    return None
 
 r = requests.get('https://www.tiobe.com/tiobe-index/')
 
@@ -22,7 +37,7 @@ for row in rows:
     cells = row("td")
 
     icon = cells[3].find("img")
-    filename = cells[4].text.replace("/", "") + ".md"
+    filename = cells[4].text.replace("/", "").replace(" ", "-") + ".md"
 
     f.write("## " + "![](" + "https://www.tiobe.com/" + icon["src"] + ") " + "[" + filename + "](" + cells[4].text + ")\n")
     f.write("- Position last year: " + cells[0].text + "\n")
@@ -32,7 +47,8 @@ for row in rows:
 
     sf = open(filename, "w")
     sf.write("# " + cells[4].text + "\n")
-    for result in DDGS().text(cells[4].text + " programming language", max_results=5):
+    search_results = search_with_retry(cells[4].text + " programming language")
+    for result in search_results:
         sf.write("## " + result["title"] + " from " + result["href"] + "\n")
         sf.write(result["body"] + "\n")
     sf.close()
