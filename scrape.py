@@ -4,8 +4,8 @@ import time
 
 from duckduckgo_search import DDGS
 
-def search_with_retry(query, max_retries=12, retry_delay=5):
-    print(f"Searching for {query})
+def search_with_retry(query, max_retries=4, retry_delay=30):
+    print(f"Searching for {query}")
     for attempt in range(max_retries):
         try:
             results = DDGS().text(query, max_results=5)
@@ -39,7 +39,7 @@ for row in rows:
     icon = cells[3].find("img")
     filename = cells[4].text.replace("/", "").replace(" ", "-") + ".md"
 
-    f.write("## " + "![](" + "https://www.tiobe.com/" + icon["src"] + ") " + "[" + filename + "](" + cells[4].text + ")\n")
+    f.write("## " + "![](" + "https://www.tiobe.com/" + icon["src"] + ") " + "[" + cells[4].text + "](" + filename + ")\n")
     f.write("- Position last year: " + cells[0].text + "\n")
     f.write("- Position this year: " + cells[1].text + "\n")
     f.write("- Ratings: " + cells[5].text + "\n")
